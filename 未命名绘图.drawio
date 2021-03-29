@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T02:53:06.536Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="4uH-Cv5YRWcVHoaSV7tb" version="14.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-29T03:12:04.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_jQnUAlVAuk8WxeQ5P5I" version="14.5.1" type="github" pages="2">
   <diagram id="ESvmmhUmxTBA3f6USQD_" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -61,6 +61,124 @@
         </mxCell>
         <mxCell id="aBwMom_D8BZd14IzNknp-15" value="中文ASR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="530" y="380" width="100" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="q9-W6lvfLEJVs3o5c8PB" name="第 2 页">
+    <mxGraphModel dx="2062" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZaGUo094ZKQwnA8RUyoK-0" />
+        <mxCell id="ZaGUo094ZKQwnA8RUyoK-1" parent="ZaGUo094ZKQwnA8RUyoK-0" />
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-0" value="1: 实时英文语音流" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-1" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="285" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-19" value="3: vad断句" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-3" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="410" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="335" y="400" />
+              <mxPoint x="590" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-3" value="英文ASR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="260" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-4" value="5: 中文文本" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="400" />
+              <mxPoint x="915" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-5" value="英-&amp;gt;中翻译" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="570" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-6" value="6: 中文语音流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-7" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="360" />
+              <mxPoint x="680" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-7" value="中文TTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="890" y="470" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-25" value="1: 实时中文语音流" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-9" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="920" y="140" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-31" value="6: 英文语音流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-11" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="40" />
+              <mxPoint x="560" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-11" value="英文TTS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="260" y="-190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-13" value="中-&amp;gt;英翻译" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="570" y="-190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-27" value="3: vad断句" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-15" target="xxe0TyBy9cfBVcG6Gukx-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="-40" />
+              <mxPoint x="650" y="-40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-15" value="中文ASR" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="880" y="-190" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-18" value="2: 听写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="360" />
+              <mxPoint x="310" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-20" value="4: 翻译" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;startArrow=classic;startFill=1;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-24" value="7: 实时中文语音流" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-26" value="2: 听写" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="680" />
+              <mxPoint x="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-28" value="4: 翻译" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-29" value="5: 英文文本" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=1;entryDx=0;entryDy=0;startArrow=none;startFill=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="590" />
+              <mxPoint x="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-32" value="7: 实时英文语音流" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;startFill=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-16" target="xxe0TyBy9cfBVcG6Gukx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-16" value="后端服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
