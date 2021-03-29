@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T03:12:04.404Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="_jQnUAlVAuk8WxeQ5P5I" version="14.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-29T03:24:16.906Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="Tbwhbd7WHTeac1m0WIex" version="14.5.1" type="github" pages="2">
   <diagram id="ESvmmhUmxTBA3f6USQD_" name="第 1 页">
     <mxGraphModel dx="1038" dy="580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -66,14 +66,14 @@
     </mxGraphModel>
   </diagram>
   <diagram id="q9-W6lvfLEJVs3o5c8PB" name="第 2 页">
-    <mxGraphModel dx="2062" dy="1963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2426" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="ZaGUo094ZKQwnA8RUyoK-0" />
         <mxCell id="ZaGUo094ZKQwnA8RUyoK-1" parent="ZaGUo094ZKQwnA8RUyoK-0" />
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-0" value="1: 实时英文语音流" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-1" target="xxe0TyBy9cfBVcG6Gukx-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xxe0TyBy9cfBVcG6Gukx-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-1" value="User Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
           <mxGeometry x="285" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-19" value="3: vad断句" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;exitX=0.75;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-3" target="xxe0TyBy9cfBVcG6Gukx-16">
@@ -113,7 +113,7 @@
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-25" value="1: 实时中文语音流" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.25;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-9" target="xxe0TyBy9cfBVcG6Gukx-16">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="xxe0TyBy9cfBVcG6Gukx-9" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-9" value="User Agent" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
           <mxGeometry x="920" y="140" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-31" value="6: 英文语音流" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;startArrow=none;startFill=0;" edge="1" parent="ZaGUo094ZKQwnA8RUyoK-1" source="xxe0TyBy9cfBVcG6Gukx-11" target="xxe0TyBy9cfBVcG6Gukx-16">
@@ -179,6 +179,27 @@
         </mxCell>
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-16" value="后端服务" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
           <mxGeometry x="560" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-37" value="" style="group" vertex="1" connectable="0" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="80" y="-190" width="80" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-33" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xxe0TyBy9cfBVcG6Gukx-37">
+          <mxGeometry x="60" width="20" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-34" value="中-&amp;gt;英" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xxe0TyBy9cfBVcG6Gukx-37">
+          <mxGeometry y="165" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-38" value="" style="group" vertex="1" connectable="0" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="80" y="180" width="80" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-39" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="xxe0TyBy9cfBVcG6Gukx-38">
+          <mxGeometry x="60" width="20" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-40" value="英-&amp;gt;中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xxe0TyBy9cfBVcG6Gukx-38">
+          <mxGeometry y="165" width="50" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-41" value="技术要点&lt;br&gt;&lt;div&gt;1、通讯协议使用WebSocket&lt;/div&gt;&lt;div&gt;2、浏览器端使用recorder录音，需要开启https&lt;/div&gt;&lt;div&gt;3、前后端录音数据通过ArrayBuffer序列化&lt;/div&gt;4、后端接收到语音流后调用听写引擎（ASR），以VAD信号作为标识，进行翻译&lt;br&gt;5、翻译结果送到TTS引擎，将实时语音流传送到接收端&lt;br&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="1130" y="85" width="590" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
