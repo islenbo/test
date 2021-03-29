@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T06:01:26.384Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="QHijyanQ8pJ4MeTge35D" version="14.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-03-29T07:24:44.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6GlYp5DiINTtikhsuUNM" version="14.5.1" type="github" pages="2">
   <diagram id="ESvmmhUmxTBA3f6USQD_" name="第 1 页">
     <mxGraphModel dx="2062" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -198,8 +198,8 @@
         <mxCell id="xxe0TyBy9cfBVcG6Gukx-40" value="英-&amp;gt;中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="xxe0TyBy9cfBVcG6Gukx-38">
           <mxGeometry y="165" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="xxe0TyBy9cfBVcG6Gukx-41" value="技术要点&lt;br&gt;&lt;div&gt;1、通讯协议使用WebSocket&lt;/div&gt;&lt;div&gt;2、浏览器端使用recorder录音，需要开启https&lt;/div&gt;&lt;div&gt;3、前端录音数据通过ArrayBuffer序列化传送到后端&lt;/div&gt;4、后端接收到语音流后调用听写引擎（ASR），以VAD信号作为标识，进行翻译&lt;br&gt;5、翻译结果送到TTS引擎，将实时语音流传送到接收端&lt;br&gt;&lt;br&gt;技术细节&lt;br&gt;1、为每个用户生成用户号码，发起会话时只需要输入对方号码即可发起会话，前期实现要求双方必须都在线&lt;br&gt;2、用户间的会话必须支持多对多（N:N），后端维护好会话关系（可以以会话ID作为会议室ID，类似socket.io的room概念），前期实可以只实现1:1&lt;br&gt;3、" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
-          <mxGeometry x="1050" y="-190" width="1050" height="210" as="geometry" />
+        <mxCell id="xxe0TyBy9cfBVcG6Gukx-41" value="技术要点&lt;br&gt;&lt;div&gt;1、通讯协议使用WebSocket；&lt;/div&gt;&lt;div&gt;2、浏览器端使用recorder录音，需要开启https；&lt;/div&gt;&lt;div&gt;3、前端录音数据通过ArrayBuffer序列化传送到后端；&lt;/div&gt;4、后端接收到语音流后调用听写引擎（ASR），以VAD信号作为标识，进行翻译；&lt;br&gt;5、翻译结果送到TTS引擎，将实时语音流传送到接收端。&lt;br&gt;&lt;br&gt;技术细节&lt;br&gt;1、为每个用户生成用户号码，发起会话时只需要输入对方号码即可发起会话，前期实现要求双方必须都在线；&lt;br&gt;2、用户间的会话必须支持多对多（N:N），后端维护好会话关系（可以以会话ID作为会议室ID，类似socket.io的room概念），前期实可以只实现1:1；&lt;br&gt;3、demo阶段不考虑录音、转写结果的存储，打印相应的结果Log即可；&lt;br&gt;4、。。。" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;fontSize=16;" vertex="1" parent="ZaGUo094ZKQwnA8RUyoK-1">
+          <mxGeometry x="1050" y="-200" width="1070" height="230" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
