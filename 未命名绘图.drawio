@@ -1,66 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2021-03-29T07:24:44.537Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="6GlYp5DiINTtikhsuUNM" version="14.5.1" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2021-04-30T09:20:13.405Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.93 Safari/537.36" etag="c_DMlCEork6yRU5L1ZKE" version="14.5.8" type="github" pages="2">
   <diagram id="ESvmmhUmxTBA3f6USQD_" name="第 1 页">
-    <mxGraphModel dx="2062" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1718" dy="662" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="aBwMom_D8BZd14IzNknp-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aBwMom_D8BZd14IzNknp-1" target="aBwMom_D8BZd14IzNknp-2" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-1" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="285" y="140" width="30" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aBwMom_D8BZd14IzNknp-2" target="aBwMom_D8BZd14IzNknp-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-2" value="英文ASR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="290" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aBwMom_D8BZd14IzNknp-4" target="aBwMom_D8BZd14IzNknp-6" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-4" value="英-&amp;gt;中翻译" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="290" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="aBwMom_D8BZd14IzNknp-6" target="aBwMom_D8BZd14IzNknp-8" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-6" value="中文TTS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="290" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="aBwMom_D8BZd14IzNknp-8" target="aBwMom_D8BZd14IzNknp-15" edge="1">
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1" source="ng8fVR_bc8W_mGURFbqn-1" target="ng8fVR_bc8W_mGURFbqn-6">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="650" y="160" />
-              <mxPoint x="650" y="410" />
+              <mxPoint x="205" y="270" />
+              <mxPoint x="340" y="270" />
+              <mxPoint x="340" y="400" />
+              <mxPoint x="268" y="400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
-          <mxGeometry x="565" y="140" width="30" height="60" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-1" value="Arvato机房" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#10739e;fillColor=#b1ddf0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="150" y="110" width="110" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.3333333333333333;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aBwMom_D8BZd14IzNknp-12" target="aBwMom_D8BZd14IzNknp-1" edge="1">
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-2" value="Skyes机房" style="pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=#10739e;fillColor=#b1ddf0;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.servers.datacenter;" vertex="1" parent="1">
+          <mxGeometry x="440" y="110" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1" source="ng8fVR_bc8W_mGURFbqn-3" target="ng8fVR_bc8W_mGURFbqn-9">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="220" y="410" />
-              <mxPoint x="220" y="160" />
+              <mxPoint x="597" y="270" />
+              <mxPoint x="410" y="270" />
+              <mxPoint x="410" y="430" />
+              <mxPoint x="433" y="430" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-12" value="英文TTS" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="250" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" edge="1" parent="1" source="ng8fVR_bc8W_mGURFbqn-3" target="ng8fVR_bc8W_mGURFbqn-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="597" y="270" />
+              <mxPoint x="410" y="270" />
+              <mxPoint x="410" y="430" />
+              <mxPoint x="268" y="430" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aBwMom_D8BZd14IzNknp-14" target="aBwMom_D8BZd14IzNknp-12" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-3" value="中转机（讯飞提供）&lt;br&gt;172.16.92.11" style="shape=mxgraph.cisco.hubs_and_gateways.universal_gateway;html=1;pointerEvents=1;dashed=0;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="164" width="54" height="56" as="geometry" />
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-14" value="中-&amp;gt;英翻译" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="390" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-4" value="" style="strokeColor=#10739e;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fillColor=#b1ddf0;" vertex="1" parent="1">
+          <mxGeometry x="293" y="330" width="140" height="44" as="geometry" />
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aBwMom_D8BZd14IzNknp-15" target="aBwMom_D8BZd14IzNknp-14" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-5" value="VPN Gateway" style="dashed=0;connectable=0;html=1;fillColor=#b1ddf0;strokeColor=#10739e;shape=mxgraph.gcp2.gateway;part=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=5;fontSize=12;" vertex="1" parent="ng8fVR_bc8W_mGURFbqn-4">
+          <mxGeometry y="0.5" width="32" height="32" relative="1" as="geometry">
+            <mxPoint x="5" y="-16" as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="aBwMom_D8BZd14IzNknp-15" value="中文ASR" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="530" y="380" width="100" height="60" as="geometry" />
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-6" value="FS01&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;172.18.36.218&lt;/span&gt;" style="shape=mxgraph.cisco.servers.sip_proxy_server;html=1;pointerEvents=1;dashed=0;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="245" y="460" width="45" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-9" value="FS02&lt;br&gt;&lt;span style=&quot;color: rgb(51 , 51 , 51) ; font-family: , &amp;#34;blinkmacsystemfont&amp;#34; , &amp;#34;segoe ui&amp;#34; , &amp;#34;pingfang sc&amp;#34; , &amp;#34;hiragino sans gb&amp;#34; , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;helvetica neue&amp;#34; , &amp;#34;helvetica&amp;#34; , &amp;#34;arial&amp;#34; , sans-serif ; background-color: rgb(255 , 255 , 255)&quot;&gt;172.18.36.236&lt;/span&gt;" style="shape=mxgraph.cisco.servers.sip_proxy_server;html=1;pointerEvents=1;dashed=0;fillColor=#b1ddf0;strokeColor=#10739e;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="460" width="45" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ng8fVR_bc8W_mGURFbqn-16" value="&lt;div&gt;Skyes机房&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;1、Skyes呼叫中心不支持SIP协议，由爱因提供一台中转机做协议转换，部署在上海Skyes机房；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;2、中转机为Linux系统，IP：172.16.92.11，账号：root，密码：iflyteksouth，注：若VPN重连IP可能会发生变化；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;3、中转机经VPN网关访问爱因部署在阿里云的两台FreeSwitch服务器，中转机对两台FS服务器有做探活检测，请求会优先打到FS02，若FS02超时（32s），会再转接到FS01；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;4、VPN类型为IPSecVPN，由爱因在阿里云上采购，每年5月份需做一次续费，相关配置也可在阿里云后台查到；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;5、目前VPN的路上策略仅允许中转机访问FS01和FS02，不允许访问爱因其他服务器；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;6、中转机信令采用UDP协议发传输，送到FS服务器5060端口；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;7、中转机媒体流采用UDP协议传输，未指定端口段，即FS默认的端口段。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Arvato机房&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;1、Arvato呼叫中心支持SIP，不需要中转机；同时，不需要爱因提供IPSecVPN设备；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;2、Arvato只对接到FS01，没做探活切换，VPN路由策略只允许访问FS01；&lt;/div&gt;&lt;div&gt;&lt;span&gt;	&lt;/span&gt;3、VPN网关与Skyes共用同一套；信令与媒体流与Skyes第6、7点一致。&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="590" y="330" width="550" height="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
